@@ -1,0 +1,147 @@
+*{
+    background-color: black;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+div.cycle-slideshow{
+    margin: 0 auto 0 auto ;
+    width: auto;
+}
+
+div.container{
+    width: 80%;
+    margin: 0 auto 0 auto ;
+}
+
+header{
+    padding-top: 1em;
+    color: rgb(255, 255, 255);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, 50em;
+    text-align: center;
+}
+
+div.top-left, div.top-center, div.top-right{
+    width: 33%;
+}
+div.middle-left, div.middle-center, div.middle-right{
+    width: 33%;
+}
+div.bottom-left, div.bottom-center, div.bottom-right{
+    
+    width: 33%;
+}
+aside img{
+    width: 100%; 
+
+}
+
+aside{
+    display: flex;
+    justify-content: space-between;
+}
+div.caption h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif,50em ;
+    text-align: center;
+    color:white;
+}
+div.caption h4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif,50em ;
+    text-align: center;
+    color:rgb(139, 139, 139);
+}
+
+div.caption{
+    padding-top: 2em;
+    color:rgb(139, 139, 139);
+    text-align: center;
+    
+}
+
+div.contact h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif,100em ;
+    text-align: center;
+    color:white;
+}
+div.ccontact h4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif,100em ;
+    text-align: center;
+    color:rgb(139, 139, 139);
+}
+
+div.contact{
+    font-size:xx-large;
+    padding-top: 2em;
+    color:rgb(139, 139, 139);
+    text-align: center;
+    
+}
+
+ul{
+    text-align: center;
+  }
+
+li{
+    display: inline-block;
+    line-height: 2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-variant: small-caps;
+ }
+
+a{
+    color: rgb(61, 60, 60);
+    text-decoration: none;
+    display: block;
+}
+
+/* MEDIA QUERY */
+
+@media screen  and (Max-width: 380px){
+    nav{
+        font-size: 1.3em;
+        width: 100%;
+        margin: 0;
+    }
+
+    nav ul{
+        margin: 0;
+        padding: .5em;
+    }
+
+    nav li{
+        width: 180px;
+        padding: .15em;
+    }
+
+    a{
+        color: white;
+        background-color: rgb(55, 55, 55);
+        border-radius: 2em;
+    }
+}
+@media screen and (min-width: 381px) and (max-width: 768px){
+    li{
+        width: 70px;
+    }
+
+    a{
+        color: white;
+
+    }
+}
+
+@media screen and (min-width: 769px){
+    li{
+        width: 120px;
+    }
+
+    a:hover{
+        color:white;
+    }
+    div.meet{
+
+        padding-left: 2em;
+    }
+
+}
